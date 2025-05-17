@@ -1,0 +1,68 @@
+/* AboutUs.css */
+
+.about-us {
+    background-color: #82a7ba;
+    color: rgb(28, 28, 28);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgb(17, 16, 16);
+    color: #282c34;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.feature-card {
+    background-color: #d8e0ec;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}

@@ -1,0 +1,149 @@
+/* Full-width header section */
+.header {
+    width: 100%;
+    background-color: #34587A;
+    padding: 20px 0;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color:#e0e0e0;
+  }
+  
+  .header nav a {
+    
+    font-size: 1em;
+    padding: 8px 16px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .header nav a:hover {
+    background-color: white;
+    color: #34587A;
+  }
+
+  
+  
+  /* Page wrapper for content */
+  .spending-page {
+    padding: 40px 20px;
+    background-color: #f4f7f9;
+    min-height: calc(100vh - 80px); /* space below header */
+  }
+  
+  /* Card style for main content */
+  .spending-card {
+    max-width: 800px;
+    background: white;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Headings */
+  .spending-card h2,
+  .spending-list h3,
+  .spending-chart h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .spending-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .spending-form label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .spending-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .spending-form button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .spending-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table style */
+  .spending-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  }
+  
+  .spending-list th,
+  .spending-list td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .spending-list th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Chart section */
+  .spending-chart {
+    margin-top: 30px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header nav {
+      margin-top: 10px;
+    }
+  
+    .spending-card {
+      padding: 20px;
+    }
+  }
+  

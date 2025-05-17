@@ -1,0 +1,143 @@
+/* Main container for category section */
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f19292;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+.home-btn {
+  background-color: #2c3e50;
+  color: rgb(116, 189, 223);
+  border: none;
+  padding: 10px 3px;
+  margin-left: 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 80px;
+  transition: background-color 0.3s ease;
+}
+.faq-image {
+  width:auto; /* Set a fixed width for the images */
+  height: 150px; /* Set a fixed height for the images */
+  margin-right: 15px; /* Space between the image and the text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.home-btn:hover {
+  background-color: #1a252f;
+}
+/* Title of the category section */
+.category-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Grid for category items */
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+/* Individual category card */
+.category-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Hover effect for category cards */
+.category-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  background-color: #f4f4f9;
+}
+
+/* Title styling within category cards */
+.category-item h3 {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* Description styling within category cards */
+.category-item p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+.category-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #ecf0f1;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for images */
+.category-item:hover .category-image {
+  transform: scale(1.1);
+}
+
+/* Responsive Design: Ensuring the layout adapts to smaller screen sizes */
+@media (max-width: 768px) {
+  .category-container {
+    padding: 20px;
+  }
+  
+  .category-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .category-list {
+    gap: 20px;
+  }
+
+  .category-item {
+    padding: 20px;
+  }
+
+  .category-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .category-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .category-item p {
+    font-size: 0.9rem;
+  }
+}

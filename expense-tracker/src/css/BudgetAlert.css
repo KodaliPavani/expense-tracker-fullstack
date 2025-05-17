@@ -1,0 +1,143 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fc;
+    color: #2c3e50;
+  }
+  
+  /* Header */
+  .expense-header {
+    background-color: #546c84;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+    font-family: 'Pacifico', cursive;
+    
+  
+  font-size: 50rem;
+  font-weight: bold;
+   
+   
+  }
+  
+  .expense-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+  }
+  
+  /* Container */
+  .alert-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    
+  }
+  
+  /* Nav Bar */
+  .nav-bar {
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    color: white;
+    background-color: #2980b9;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    
+  }
+  
+  .nav-bar a:hover {
+    background-color: #1f6391;
+    text-align: left;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .alert-message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  /* Form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #2c3e50;
+  }
+  
+  input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 18px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #2980b9;
+    outline: none;
+  }
+  
+  /* Save Button */
+  button[type="submit"] {
+    background-color: royalblue;
+    color: #2c3e50;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d4ac0d;
+  }
+  
+  /* Alert Message */
+  .alert-message {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #ffe6e6;
+    border: 1px solid #ffcccc;
+    border-radius: 8px;
+    color: #c0392b;
+    font-weight: 500;
+  }
+  

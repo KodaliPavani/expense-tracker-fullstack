@@ -1,0 +1,126 @@
+/* Feedback.css */
+
+.fb-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+  }
+  
+  .expense-header {
+    background-color: #34587A;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content:flex-start;
+    padding: 1rem 2rem;
+    background-color: #eef2ff;
+  }
+  
+  .nav-bar a {
+    color: #1e3a8a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-bar a:hover {
+    color: #4338ca;
+  }
+  
+  .fb-card {
+    background-color: white;
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  }
+  
+  .fb-title {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: #111827;
+  }
+  
+  .fb-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .fb-textarea {
+    min-height: 120px;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+  }
+  
+  .fb-textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+  }
+  
+  .fb-input {
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .fb-input:focus {
+    border-color: #2563eb;
+    outline: none;
+  }
+  
+  .fb-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fb-button:hover {
+    background-color: #1e40af;
+  }
+  
+  .fb-error {
+    color: #dc2626;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  
+  .fb-success {
+    color: #16a34a;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  
+  .fb-footer {
+    margin-top: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f3f4f6;
+    color: #6b7280;
+    font-size: 0.9rem;
+    border-top: 1px solid #e5e7eb;
+  }
+  

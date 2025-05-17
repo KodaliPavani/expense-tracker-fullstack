@@ -1,0 +1,144 @@
+/* ===== Header ===== */
+.savings-header {
+    width: 100%;
+    background-color: #34587A;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .savings-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  /* ===== Navigation ===== */
+  .savings-nav {
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    text-align:left;
+  }
+  
+  .savings-nav a {
+    text-decoration: none;
+    color: #34587A;
+    font-weight: 600;
+    border: 2px solid #34587A;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .savings-nav a:hover {
+    background-color: #34587A;
+    color: white;
+  }
+  
+  /* ===== Main Section ===== */
+  .savings-section {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafc;
+    min-height: 100vh;
+  }
+  
+  .savings-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .savings-title,
+  .savings-subtitle {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  /* ===== Form Styling ===== */
+  .savings-form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .savings-form label {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .savings-form input,
+  .savings-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .savings-form textarea {
+    resize: vertical;
+  }
+  
+  .savings-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .savings-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* ===== Entries ===== */
+  .savings-entries {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  }
+  
+  .savings-entries ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .savings-entry {
+    background-color: #eef4f8;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #28a745;
+    border-radius: 8px;
+  }
+  
+  .savings-entry p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  /* ===== Responsive ===== */
+  @media (max-width: 600px) {
+    .savings-nav {
+      text-align: center;
+    }
+  
+    .savings-nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .savings-container {
+      padding: 0 10px;
+    }
+  }
+  
